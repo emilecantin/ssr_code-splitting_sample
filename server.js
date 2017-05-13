@@ -28,7 +28,7 @@ export function render(req, res) {
       <body>
         <div id="app">${markup}</div>
         <script>
-          // window.splitPoints=${JSON.stringify(context.splitPoints)}; // Send it down to the client
+          window.splitPoints=${JSON.stringify(context.splitPoints)}; // Send it down to the client
         </script>
         <script src="/client.js"></script>
       </body>
