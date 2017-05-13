@@ -1,6 +1,6 @@
 // routes.js
 
-import {Landing, Dashboard} from './Bundles';
+import {Landing, Dashboard, NestedRoute} from './Bundles';
 
 export const routes = [{
   component: Landing,
@@ -8,7 +8,11 @@ export const routes = [{
   exact: true
 }, {
   component: Dashboard,
-  path: '/dashboard'
+  path: '/dashboard',
+  routes: [{
+    component: NestedRoute,
+    path: '/dashboard/nested'
+  }],
 
   /* ... other routes */
 }]

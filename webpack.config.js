@@ -8,6 +8,7 @@ const clientConfig = {
   output: {
     path: `${__dirname}/build`,
     filename: 'client.js',
+    publicPath: '/',
   },
   module: {
     rules: [{
