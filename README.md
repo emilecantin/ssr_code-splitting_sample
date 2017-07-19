@@ -1,4 +1,4 @@
-# Sample application: Server-Side Rendering and Code Splittinng with React-Router 4
+# Sample application: Server-Side Rendering and Code Splitting with React-Router 4
 
 The purpose of this repository is to showcase a working solution for a server-render, code-split app with React-Router 4. This solution is described in detail on my personal blog [here](https://blog.emilecantin.com/web/react/javascript/2017/05/16/ssr-react-router-4-webpack-code-split.html).
 
